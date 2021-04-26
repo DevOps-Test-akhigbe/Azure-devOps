@@ -4,11 +4,9 @@ trigger:
 
 pool:  ctg-ak-dev
  
-
 steps:
 - script: |
    ls -R
-   
    echo "Start arm  template deployments"
   displayName: 'Command Line Script'
 
